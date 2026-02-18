@@ -28,7 +28,6 @@ class ArrayListCap {
 
 function printArrayCap() {
     const userInput = parseInt(prompt("Enter Total No. of Elements in ArrayList: "));
-    // anon
     new ArrayListCap(userInput).printGrowth();
 }
 
